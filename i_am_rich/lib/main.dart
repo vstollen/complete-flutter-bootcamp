@@ -9,10 +9,7 @@ void main() {
           title: Text('I am Rich'),
           backgroundColor: Colors.blueGrey[900],
         ),
-        body: Center(
-          child: Image.network(
-              'https://i.ytimg.com/vi/dXM6i5-sdVg/maxresdefault.jpg'),
-        ),
+        body: Center(child: Image.asset('images/diamond.png')),
       ),
     ),
   );
